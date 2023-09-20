@@ -1,0 +1,13 @@
+#challenge 2. Mad libs Project
+
+Verb1= input("walked")
+verb2= input("ran")
+verb3= input("flew")
+Name= input("Sasha")
+Noun= input("Grandmas house")
+Food= input("Icecream")
+
+print(f"I {Verb1} to the park")
+
+Madlib = 'I (Verb1) to the park. I wanted to eat (Food), unfortunately (Name), my annoying neighbor (verb2) towards me. (Name) threw (Food) at me so I (verb3) to (Noun) to escape her.'
+print (Madlib)
