@@ -1,0 +1,15 @@
+temp = 69
+if temp > 69:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+elif temp == 69:
+    print('nice.')
+else:
+    print('cold')
+
+#Let's create a function that determines if a number is odd or even
+
+numb= 1
+if numb== 1:
+    print ("odd")
