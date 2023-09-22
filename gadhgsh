@@ -10,6 +10,10 @@ else:
 
 #Let's create a function that determines if a number is odd or even
 
-numb= 1
-if numb== 1:
-    print ("odd")
+numb= input ("Number:")
+if (numb%2):
+    print("odd")
+else:
+    print ("even")
+
+

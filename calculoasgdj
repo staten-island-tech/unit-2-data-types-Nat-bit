@@ -1,0 +1,7 @@
+sent = input ("Please type a sentence ")
+broken=sent.split()
+print(len(broken))
+
+
+x=57 % 2
+print(x)
