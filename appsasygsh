@@ -1,0 +1,17 @@
+#calculat again
+
+bil= float(input ("Bill?"))
+service= input ("How would you rate the service today? Bad, okay, good or great?")
+tp= bil*0
+tp1= bil*0.15
+tp2= bil*0.20
+tp3=bil*0.25
+
+if service == "Bad":
+    print (bil+tp)
+elif service == "Okay":
+    print (bil+tp1)
+elif service== "Good":
+    print (bil+tp2)
+elif service== "Great":
+    print (bil+tp3)

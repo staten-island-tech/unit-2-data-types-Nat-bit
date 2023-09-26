@@ -1,0 +1,7 @@
+#calculatortip yyay
+
+
+bil= float(input ("Bill?"))
+tp= float(input ("Tip?"))
+ttl= bil + tp
+print (ttl)

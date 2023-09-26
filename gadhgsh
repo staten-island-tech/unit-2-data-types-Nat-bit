@@ -10,7 +10,7 @@ else:
 
 #Let's create a function that determines if a number is odd or even
 
-numb= input ("Number:")
+numb= int(input("Number:"))
 if (numb%2):
     print("odd")
 else:
