@@ -1,0 +1,10 @@
+tunnelbusy= Westboundtraffic or Eastboundtraffic
+
+Eastboundtraffic= True or False
+Westboundtraffic= True or False
+Tunbus=  input("Which ways are the cars heading, East or West??")
+if Tunbus == "East" or "east ":
+    Eastboundtraffic= True and print ("There is east bound traffic, there is no westbound traffic.") 
+elif Tunbus == "West"or "west":
+    Westboundtraffic= True and print ("There is west bound traffic, there is no eastbound traffic.")
+  
