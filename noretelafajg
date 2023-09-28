@@ -1,10 +1,16 @@
-tunnelbusy= Westboundtraffic or Eastboundtraffic
 
-Eastboundtraffic= True or False
-Westboundtraffic= True or False
-Tunbus=  input("Which ways are the cars heading, East or West??")
-if Tunbus == "East" or "east ":
-    Eastboundtraffic= True and print ("There is east bound traffic, there is no westbound traffic.") 
-elif Tunbus == "West"or "west":
-    Westboundtraffic= True and print ("There is west bound traffic, there is no eastbound traffic.")
-  
+x = input ("Eastbound?")
+y = input ("Westbound?")
+if x == "true" or "True" and y=="False" or "false":
+    x= True and print("There is east bound traffic.")
+    if x== True and y== False:
+        print ("There is no west bound traffic")
+elif y == "True"or "true" and x== "False" or "false":
+    y= True and print ("There is west bound traffic.")
+    if y== True and x== False:
+        print ("There is no east bound traffic.")
+else:
+    if x and y== True:
+        print("False")
+    elif x and y== False:
+        print("True")
