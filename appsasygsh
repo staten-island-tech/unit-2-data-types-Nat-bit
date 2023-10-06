@@ -15,8 +15,3 @@ elif service== "Good" or "good":
     print (bil+tp2)
 elif service== "Great" or "great":
     print (bil+tp3)
-
-#finished code ^, next.
-
-bily= int(input("Write number"))
-
